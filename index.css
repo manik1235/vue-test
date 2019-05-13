@@ -1,0 +1,11 @@
+.bucket {
+  border-radius: 25px;
+  border-style: solid;
+  border-top: none;
+  margin: 10px 10px;
+  min-width: 100px;
+  max-width: 200px;
+  min-height: 200px;
+  max-height: 400px;
+  padding: 10px 10px;
+}
