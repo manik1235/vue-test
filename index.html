@@ -7,12 +7,21 @@
   </head>
   <body>
     <div id="app">
-      <bucket-component class="bucket"></bucket-component>
+      <bucket-component label="Bucket Component"></bucket-component>
+      <bucket-input thing="snacks"></bucket-input>
 
     </div>
 
     <div id="components-demo">
       <button-counter></button-counter>
+    </div>
+
+    <div id="blog-post-demo">
+      <blog-post
+        v-for="post in posts"
+        v-bind:key="post.id"
+        v-bind:title="post.title"
+      ></blog-post>
     </div>
   </body>
   <footer>
